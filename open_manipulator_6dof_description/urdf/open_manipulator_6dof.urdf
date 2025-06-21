@@ -3,6 +3,11 @@
 <robot name="open_manipulator_6dof">
 
   <!-- Materials (incorporated directly) -->
+
+  <material name="black">
+    <color rgba="0.0 0.0 0.0 1.0"/>
+  </material>
+
   <material name="grey">
     <color rgba="0.7 0.7 0.7 1.0"/>
   </material>
