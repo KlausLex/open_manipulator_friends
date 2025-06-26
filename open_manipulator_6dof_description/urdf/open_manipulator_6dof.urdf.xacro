@@ -64,6 +64,11 @@
                iyy="2.1898364e-05" iyz="0.0"
                izz="1.9267361e-05" />
     </inertial>
+
+    <gazebo reference="link1">
+      <material>Gazebo/FlatBlack</material>
+    </gazebo>
+
   </link>
 
   <!-- Joint 1 -->
@@ -110,6 +115,11 @@
                iyy="3.2689329e-05" iyz="2.8511935e-08"
                izz="1.8850320e-05" />
     </inertial>
+
+    <gazebo reference="link2">
+      <material>Gazebo/FlatBlack</material>
+    </gazebo>
+
   </link>
 
   <!--  Joint 2 -->
@@ -156,6 +166,9 @@
                iyy="3.4290447e-04" iyz="-1.5717516e-06"
                izz="6.0346498e-05" />
     </inertial>-->
+    <gazebo reference="link3">
+      <material>Gazebo/FlatBlack</material>
+    </gazebo>
   </link>
 
   <!--  Joint 3 -->
@@ -202,6 +215,9 @@
                iyy="2.4230292e-04" iyz="1.1559550e-08"
                izz="2.5155057e-04" />
     </inertial>-->
+    <gazebo reference="link4">
+      <material>Gazebo/FlatBlack</material>
+    </gazebo>
   </link>
 
   <!--  Joint 4 -->
@@ -248,6 +264,9 @@
                iyy="7.5980465e-05" iyz="0.0"
                izz="9.3127351e-05" />
     </inertial>-->
+    <gazebo reference="link5">
+      <material>Gazebo/FlatBlack</material>
+    </gazebo>
   </link>
 
   <!--  Joint 5 -->
@@ -294,6 +313,11 @@
                iyy="7.5980465e-05" iyz="0.0"
                izz="9.3127351e-05" />
     </inertial>
+
+    <gazebo reference="link6">
+      <material>Gazebo/FlatBlack</material>
+    </gazebo>
+
   </link>
 
   <!--  Joint 6 -->
@@ -340,6 +364,11 @@
                iyy="7.5980465e-05" iyz="0.0"
                izz="9.3127351e-05" />
     </inertial>
+
+    <gazebo reference="link7">
+      <material>Gazebo/FlatBlack</material>
+    </gazebo>
+
   </link>
 
   <!--  Gripper link -->
@@ -374,6 +403,10 @@
                iyy="2.2552871e-05" iyz="-3.1463634e-10"
                izz="1.7605306e-05" />
     </inertial>-->
+    <gazebo reference="gripper_link">
+      <material>Gazebo/FlatBlack</material>
+    </gazebo>
+
   </link>
 
   <!--  Gripper joint -->
