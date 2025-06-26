@@ -39,7 +39,7 @@
       <geometry>
         <mesh filename="package://open_manipulator_6dof_description/meshes/chain_link1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-      <material name="grey"/>
+      <material name="black"/>
     </visual>
 
     <collision>
@@ -85,7 +85,7 @@
       <geometry>
         <mesh filename="package://open_manipulator_6dof_description/meshes/chain_link2.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-      <material name="grey"/>
+      <material name="black"/>
     </visual>
 
     <collision>
@@ -131,7 +131,7 @@
       <geometry>
         <mesh filename="package://open_manipulator_6dof_description/meshes/chain_link3.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-      <material name="grey"/>
+      <material name="black"/>
     </visual>
 
     <collision>
@@ -177,7 +177,7 @@
       <geometry>
         <mesh filename="package://open_manipulator_6dof_description/meshes/chain_link4.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-      <material name="grey"/>
+      <material name="black"/>
     </visual>
 
     <collision>
@@ -223,7 +223,7 @@
       <geometry>
         <mesh filename="package://open_manipulator_6dof_description/meshes/chain_link5.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-      <material name="grey"/>
+      <material name="black"/>
     </visual>
 
     <collision>
@@ -269,7 +269,7 @@
       <geometry>
         <mesh filename="package://open_manipulator_6dof_description/meshes/chain_link6.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-      <material name="grey"/>
+      <material name="black"/>
     </visual>
 
     <collision>
@@ -315,7 +315,7 @@
       <geometry>
         <mesh filename="package://open_manipulator_6dof_description/meshes/chain_link7.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-      <material name="grey"/>
+      <material name="black"/>
     </visual>
 
     <collision>
@@ -349,7 +349,7 @@
       <geometry>
         <mesh filename="package://open_manipulator_6dof_description/meshes/chain_link_grip_l.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-      <material name="grey"/>
+      <material name="black"/>
     </visual>
 
     <collision>
@@ -396,7 +396,7 @@
       <geometry>
         <mesh filename="package://open_manipulator_6dof_description/meshes/chain_link_grip_r.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-      <material name="grey"/>
+      <material name="black"/>
     </visual>
 
     <collision>

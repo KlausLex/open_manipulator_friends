@@ -3,6 +3,11 @@
 <robot name="open_manipulator_6dof">
 
   <!-- Materials (incorporated directly) -->
+
+  <material name="black">
+    <color rgba="0.0 0.0 0.0 1.0"/>
+  </material>
+
   <material name="grey">
     <color rgba="0.7 0.7 0.7 1.0"/>
   </material>
@@ -29,7 +34,7 @@
       <geometry>
         <mesh filename="chain_link1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-      <material name="grey"/>
+      <material name="black"/>
     </visual>
 
     <collision>
@@ -76,7 +81,7 @@
       <geometry>
         <mesh filename="chain_link2.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-      <material name="grey"/>
+      <material name="black"/>
     </visual>
 
     <collision>
@@ -123,7 +128,7 @@
       <geometry>
         <mesh filename="chain_link3.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-      <material name="grey"/>
+      <material name="black"/>
     </visual>
 
     <collision>
@@ -170,7 +175,7 @@
       <geometry>
         <mesh filename="chain_link4.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-      <material name="grey"/>
+      <material name="black"/>
     </visual>
 
     <collision>
@@ -217,7 +222,7 @@
       <geometry>
         <mesh filename="chain_link5.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-      <material name="grey"/>
+      <material name="black"/>
     </visual>
 
     <collision>
@@ -264,7 +269,7 @@
       <geometry>
         <mesh filename="chain_link6.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-      <material name="grey"/>
+      <material name="black"/>
     </visual>
 
     <collision>
@@ -311,7 +316,7 @@
       <geometry>
         <mesh filename="chain_link7.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-      <material name="grey"/>
+      <material name="black"/>
     </visual>
 
     <collision>
@@ -337,7 +342,7 @@
       <geometry>
         <mesh filename="chain_link_grip_l.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-      <material name="grey"/>
+      <material name="black"/>
     </visual>
 
     <collision>
@@ -384,7 +389,7 @@
       <geometry>
         <mesh filename="chain_link_grip_r.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-      <material name="grey"/>
+      <material name="black"/>
     </visual>
 
     <collision>
